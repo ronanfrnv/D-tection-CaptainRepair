@@ -2,6 +2,9 @@
 
 L'objectif de ce projet était de détecter l'ensemble des composants d'un PC et de le stocker sur un NAS à distance
 Voici le resultat : 
+
+
+
 **********************
 Début de la transcription Windows PowerShell
 Heure de début : 20210416160835
@@ -131,7 +134,7 @@ Carte Ethernet Ethernet :
 
    Suffixe DNS propre à la connexion. . . : home
    Description. . . . . . . . . . . . . . : Realtek PCIe GbE Family Controller
-   Adresse physique . . . . . . . . . . . : 00-D8-61-19-62-33
+   Adresse physique . . . . . . . . . . . : 
    DHCP activé. . . . . . . . . . . . . . : Oui
    Configuration automatique activée. . . : Oui
    Adresse IPv6. . . . . . . . . . . . . .: 2a01:cb14:4c7:9300:69b0:d226:7429:8170(préféré)
@@ -154,20 +157,11 @@ Carte Ethernet Ethernet :
                                        home
                                        home
 
-Carte Ethernet Ethernet 4 :
-
-   Statut du média. . . . . . . . . . . . : Média déconnecté
-   Suffixe DNS propre à la connexion. . . :
-   Description. . . . . . . . . . . . . . : TAP-NordVPN Windows Adapter V9
-   Adresse physique . . . . . . . . . . . : 00-FF-34-AE-D6-EE
-   DHCP activé. . . . . . . . . . . . . . : Oui
-   Configuration automatique activée. . . : Oui
-
 Carte Ethernet VMware Network Adapter VMnet1 :
 
    Suffixe DNS propre à la connexion. . . :
    Description. . . . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet1
-   Adresse physique . . . . . . . . . . . : 00-50-56-C0-00-01
+   Adresse physique . . . . . . . . . . . : 
    DHCP activé. . . . . . . . . . . . . . : Non
    Configuration automatique activée. . . : Oui
    Adresse IPv6 de liaison locale. . . . .: fe80::2801:de52:555e:3cf7%34(préféré)
@@ -185,7 +179,7 @@ Carte Ethernet VMware Network Adapter VMnet8 :
 
    Suffixe DNS propre à la connexion. . . :
    Description. . . . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet8
-   Adresse physique . . . . . . . . . . . : 00-50-56-C0-00-08
+   Adresse physique . . . . . . . . . . . : 
    DHCP activé. . . . . . . . . . . . . . : Non
    Configuration automatique activée. . . : Oui
    Adresse IPv6 de liaison locale. . . . .: fe80::3160:72f:7f00:3474%35(préféré)
